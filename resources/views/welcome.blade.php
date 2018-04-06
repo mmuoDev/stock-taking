@@ -11,7 +11,7 @@
     <title>The StockTAKING Cloud Solution for SMEs</title>
 
     <!-- Bootstrap 3.3.7 -->
-    <link rel="stylesheet" href="{{asset('css/bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/bootstrap/css/bootstrap.min.css')}}">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
