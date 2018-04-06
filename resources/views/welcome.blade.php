@@ -17,13 +17,13 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{asset('bower_components/font-awesome/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('bower_components/font-awesome/css/font-awesome.min.css')}}">
 
     <!-- Custom styles for this template -->
     {{--
     <link href="{{asset('css/coming-soon.min.css')}}" rel="stylesheet">
     --}}
-    <link rel="stylesheet" href="{{asset('css/coming-soon.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/coming-soon.css')}}">
 
 </head>
 
@@ -107,15 +107,15 @@
 
 <!-- Bootstrap core JavaScript -->
 <!-- jQuery 3 -->
-<script src="{{asset('bower_components/jquery/dist/jquery.min.js')}}"></script>
+<script src="{{secure_asset('bower_components/jquery/dist/jquery.min.js')}}"></script>
 
-<script src="{{asset('js/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{secure_asset('js/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
 <!-- Plugin JavaScript -->
-<script src="{{asset('js/vide/jquery.vide.min.js')}}"></script>
+<script src="{{secure_asset('js/vide/jquery.vide.min.js')}}"></script>
 
 <!-- Custom scripts for this template -->
-<script src="{{asset('js/coming-soon.min.js')}}"></script>
+<script src="{{secure_asset('js/coming-soon.min.js')}}"></script>
 
 </body>
 
