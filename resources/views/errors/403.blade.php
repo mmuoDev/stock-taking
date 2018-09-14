@@ -40,7 +40,7 @@
 <body>
 <div class="container">
     <div class="content">
-        <div class="title">Access Denied. Click <a href="{{url('/')}}">here to return</a> </div>
+        <div class="title">Access Denied. Click <a href="{{url('/home')}}">here to return</a> </div>
     </div>
 </div>
 </body>

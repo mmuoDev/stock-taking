@@ -99,9 +99,9 @@ class Utilities
         return $role_id;
     }
     public static function getSupervisorComments($request_id){
-        $comments = RequestComment::where('request_id', $request_id)->get();
+        //$comments = RequestComment::where('request_id', $request_id)->get();
         $comments = DB::select("select c.comment,c.created_at as created_at, u.name as name from requests_comments as c, users as u where 
-        c.user_id = u.id");
+        c.user_id = u.id and c.request_id = '$request_id'");
         return $comments;
     }
     public static function notifySupervisorOfRequest($request_id, $item_name){
